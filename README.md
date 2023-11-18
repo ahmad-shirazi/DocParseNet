@@ -22,3 +22,15 @@ Clone the repo and follow the setup instructions to start using DocParseNet for 
 
 Contributions:
 Contributions are welcome! If you have ideas for improvements or want to adapt the model for different document types, please feel free to fork the repository, make changes, and submit a pull request.
+![combined-figure](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
+
+
+
+| Method                     | mIoU  | AT    | State | County | Grantor | Grantee | TFLOPs |
+|----------------------------|-------|-------|-------|--------|---------|---------|--------|
+| Segformer-B5 [xie2021segformer] | 34.81 | 37.36 | 38.72 | 44.28  | 8.81    | 44.87   | 0.39   |
+| UNext [valanarasu2022unext]     | 42.04 | 36.16 | 53.81 | 52.01  | 24.48   | 43.73   | 0.06   |
+| **DocParseNet**            | **49.78** | **43.06** | **65.66** | **53.90**  | **36.14**   | **50.12**   | **0.04**  |
+
+*AT: Agreement Title. For each field, we mark the highest score in bold.*
+
