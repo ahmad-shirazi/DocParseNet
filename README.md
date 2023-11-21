@@ -21,6 +21,44 @@ DocParseNet is ideal for researchers and practitioners working on document image
 Get Started:
 Clone the repo and follow the setup instructions to start using DocParseNet for your document parsing needs. Comprehensive documentation is provided to help you understand and utilize the full capabilities of this system.
 
+## Data Format
+
+Make sure to put the files as the following structure (e.g. the number of classes is 2):
+
+```
+inputs
+└── <dataset name>
+    ├── images
+    |   ├── 001.png
+    │   ├── 002.png
+    │   ├── 003.png
+    │   ├── ...
+    |
+    └── masks
+        ├── 0
+        |   ├── 001.png
+        |   ├── 002.png
+        |   ├── 003.png
+        |   ├── ...
+        |
+        └── 1
+            ├── 001.png
+            ├── 002.png
+            ├── 003.png
+            ├── ...
+```
+
+## Training and Validation
+
+1. Train the model.
+```
+python train.py --dataset <dataset training path> --datasetv <dataset validation path> --arch DocParsNet --name docparsnet1 --img_ext .png --mask_ext .png --lr 0.01 --epochs 1700 --early_stopping -1 --input_w 1024 --input_h 1024 --b 64
+```
+2. Evaluate the mdoel.
+```
+python val.py --name <exp name>
+```
+
 Contributions:
 Contributions are welcome! If you have ideas for improvements or want to adapt the model for different document types, please feel free to fork the repository, make changes, and submit a pull request.
 ![combined-figure](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
