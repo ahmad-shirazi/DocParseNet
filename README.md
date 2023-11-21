@@ -21,7 +21,7 @@ DocParseNet is ideal for researchers and practitioners working on document image
 Get Started:
 Clone the repo and follow the setup instructions to start using DocParseNet for your document parsing needs. Comprehensive documentation is provided to help you understand and utilize the full capabilities of this system.
 
-## Data Format
+## 1- Data Format
 
 Make sure to put the files in the following structure (e.g., the number of classes is 2):
 
@@ -48,7 +48,7 @@ inputs
             ├── ...
 ```
 
-## Training and Validation
+## 2- Training and Validation
 
 1. Train the model.
 ```
