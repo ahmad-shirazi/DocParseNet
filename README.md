@@ -64,8 +64,8 @@ Contributions are welcome! If you have ideas for improvements or want to adapt t
 
 
 # Results
-![IOUs](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/842d0f80-d264-48ea-aac1-8b182b94a3f3)
-![IOUs-TFLOPs](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
+![IOUs](imgs/IOUs.png)
+![IOUs-TFLOPs](imgs/IOUs-TFLOPs.png)
 
 
 
