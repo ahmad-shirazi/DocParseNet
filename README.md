@@ -1,11 +1,11 @@
 # DocParseNet
 DocParseNet is an innovative multi-modal deep learning architecture specifically designed for parsing and annotating document images, particularly those derived from Right of Way (ROW) agreement PDFs. It's a pioneering solution in the field of document image analysis, offering exceptional efficiency and accuracy.
-![ProposedModel1](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/8e210a55-b605-4038-87f7-2191c06b33b5)
+![DocParseNet-Model](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/8e210a55-b605-4038-87f7-2191c06b33b5)
 
 
 # Abstract:
 The automated annotation of scanned documents remains a challenge, requiring a balance between the twin imperatives of computational efficiency and annotation accuracy. DocParseNet innovatively addresses this challenge by fusing advanced deep learning, active learning, and multi-modal learning to process both textual and visual data. This model transcends traditional OCR and semantic segmentation, capturing the intricate dynamics of text-image interplay and preserving the contextual nuances essential for deciphering complex document structures. Our empirical evaluations demonstrate that DocParseNet significantly outstrips conventional models, achieving mIoU scores of 49.12 on validation and 49.78 on the test set, reflecting its superior accuracy in discerning complex textual and graphical content inherent in Right-of-Way (RoW) documents. We achieve a notable accuracy improvement of approximately 58% compared to state-of-the-art baseline models and an 18% accuracy gain compared to the UNext baseline by integrating modified UNet with OCR DistilBERT embeddings. Remarkably, DocParseNet achieves these results with a modest parameter count of 2.8 million. These metrics, particularly when juxtaposed with the  0.034 TFLOPs (BS=1), highlight DocParseNet's capability to deliver high-performance document annotation while maintaining computational efficiency. Our Model reduces model parameters by approximately 1/25th, accelerating training speed by around 5 times compared to state-of-the-art baselines. The model's adaptability and scalability are thus well-suited for diverse, real-world RoW document processing applications, setting a new benchmark for automated annotation systems.
-![Figure-IOUsNEw-2](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/842d0f80-d264-48ea-aac1-8b182b94a3f3)
+
 
 # Key Features:
 Multi-modal Architecture: Combines the strengths of various neural network models to handle complex document structures.
@@ -64,7 +64,8 @@ Contributions are welcome! If you have ideas for improvements or want to adapt t
 
 
 # Results
-![combined-figure](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
+![IOUs](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/842d0f80-d264-48ea-aac1-8b182b94a3f3)
+![IOUs-TFLOPs](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
 
 
 
