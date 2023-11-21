@@ -23,7 +23,7 @@ Clone the repo and follow the setup instructions to start using DocParseNet for 
 
 ## Data Format
 
-Make sure to put the files as the following structure (e.g. the number of classes is 2):
+Make sure to put the files in the following structure (e.g., the number of classes is 2):
 
 ```
 inputs
@@ -61,6 +61,9 @@ python val.py --name <exp name>
 
 Contributions:
 Contributions are welcome! If you have ideas for improvements or want to adapt the model for different document types, please feel free to fork the repository, make changes, and submit a pull request.
+
+
+# Results
 ![combined-figure](https://github.com/ahmad-shirazi/DocParseNet/assets/105120174/921f66d3-d110-4d83-a204-77089c4befa1)
 
 
